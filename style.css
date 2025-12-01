@@ -494,3 +494,61 @@ footer{
 	transform:translateY(-2px);
 }
 
+
+
+@media (max-width: 768px) {
+	body{
+		overflow-x: hidden;
+		width:100%;
+		margin:0px;
+		padding:0px;
+	}
+	.navbar-pg{
+		display: none;  
+	}
+	.hero-section{
+		margin-bottom:20px;
+		width:100%;
+		height:fit-content;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+	.intro{
+		margin:0%;
+		padding-top:10%;
+		font-size: small;
+		align-self:center;
+		animation:none;
+	}
+	.intro-actions{
+		justify-content: center;
+	}
+	.intro-actions button{
+		font-size:medium;
+	}
+	 .intro-actions a{
+		font-size:30px;
+	 }
+	.bubble {
+		display:none;
+	}
+	#profile{
+		margin:0px;
+		height: 250px;
+		width: 250px;
+		animation:none;
+	}
+	.skills-section{
+		flex-direction: column;
+	}
+	.project-content{
+		grid-template-columns: 1fr;
+	}
+	.contact-me-content{
+		flex-direction: column;
+		align-items: center;
+	}
+}
