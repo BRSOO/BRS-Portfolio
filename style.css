@@ -67,6 +67,9 @@ header{
 	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.3);
 	animation: slideleft 1.5s ease-in;
 }
+.mail-icon{
+	color:black;
+}
 .intro{
 	z-index: 0;
 	color: white;
@@ -456,7 +459,6 @@ section h2{
 	padding:10px;
 	background-color: #ff5733;
 	border-radius:50%;
-	padding:10px;
 	transition:all 0.3s ease;
 }
 .contact-links-contents{
@@ -544,11 +546,94 @@ footer{
 	.skills-section{
 		flex-direction: column;
 	}
+	.skills-content{
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
 	.project-content{
 		grid-template-columns: 1fr;
+	}
+	.project-item{
+		width:80%;
+		margin: 0px auto;
 	}
 	.contact-me-content{
 		flex-direction: column;
 		align-items: center;
 	}
+	.contact-me-content form{
+		width: 60%;
+		margin:0px;
+		margin-bottom: 50px;
+	}
+	.contact-data{
+		align-items: center;
+		width: 80%;
+		margin-left:0px;
+	}
+	.contact-info span{
+		font-size: 50%;
+	}
+	.contact-info , .contact-links {
+		font-size:0.9em;
+		width: 100%;
+		margin-left:0px;
+		padding:10px 10px;
+		color: white;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: light;
+	}
+	.contact-info span{
+		width: 30px;
+		height:30px;
+		font-size: 2em;
+		margin: 15px 0px 10px 10px;
+	}
+	.contact-info, .contact-links{
+		height:fit-content;
+	}
+	.contact-links i{
+		color:white;
+		font-size:2em;
+		margin: 10px 30px 30px 10px;
+		padding:10px;
+		background-color: #ff5733;
+		border-radius:50%;
+	}
+	.contents h5 {
+    font-size: 0.85rem;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
 }
+@media (max-width: 480px) {
+  .contact-me-content form {
+    width: 90%;
+  }
+
+  .contact-info, .contact-links {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .contact-info a, .contact-links a{
+	text-decoration: none;
+
+  }
+  .contact-info span, .contact-links i {
+    width: 20px;
+    height: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contents h5 {
+    font-size: 0.85rem;
+    margin-left: 10px;
+  }
+  .contact-links-contents{
+	margin-left:20px;
+  }
+}
+
