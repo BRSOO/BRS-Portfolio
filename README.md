@@ -6,7 +6,7 @@ This site is designed to highlight my skills, feature my work, and provide an ea
 ---
 
 ## 🚀 Live Preview  
-🔗 View my portfolio here: https://brsoo.github.io/BRS-Portfolio/
+🔗 View my portfolio here: https://bibidh-raj-shrestha.github.io/BRS-Portfolio/
 
 ---
 
@@ -71,7 +71,7 @@ If you'd like to connect or collaborate:
 
 - 📧 Email: bibidhrajshrestha54321@gmail.com
 - 💼 LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/bibidh-raj-shrestha-0a559a328/)
-- 🐙 GitHub: [My GitHub Profile](https://github.com/BRSOO)  
+- 🐙 GitHub: [My GitHub Profile](https://github.com/Bibidh-Raj-Shrestha)  
 
 ---
 
