@@ -643,6 +643,11 @@ footer{
 		width:280px;
 		padding:5px;
 		margin-bottom: 20px;
+		box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.3);
+	}
+	.skills-content:hover{
+		transform: none;
+		box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.3);
 	}
 	.skill-item{
 		padding:0px;
@@ -745,9 +750,7 @@ footer{
 	.skills-section{
 		gap:30px;
 	}
-	.skills-content{
-		width:250px;
-	}
+	
 	.skills-content h3{
 		font-size: 18px;
 	}
