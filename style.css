@@ -234,13 +234,13 @@ section:not(.hero-section) h2{
 	margin-top: 20px;
 }
 .skills-content{
-	padding: 5px;;
+	padding: 5px;
+	margin: 10px;
 	background-color:  #3f3f3d;
 	display : grid;
 	width: 300px;
 	min-height: 400px;
 	height:auto;
-	margin: 10px;
 	grid-template-columns:repeat(2,1fr);
 	grid-template-rows: 0.5fr 1fr 1fr 1fr;
 	border-radius: 30px;
@@ -412,7 +412,7 @@ section:not(.hero-section) h2{
 	border: none;
 	border-radius: 10px;
 	cursor: pointer;
-	font-size: 1.1rem;
+	font-size: large;
 	transition: all 0.3s ease;
 }
  form > input:focus, form > textarea:focus {
@@ -431,7 +431,7 @@ section:not(.hero-section) h2{
 	align-items: center;
 	margin-left:5%;
 	margin-bottom: 15px;
-	width: 40%;
+	width: 100%;
 }
 .contact-info, .contact-links{
 	width:80%;
@@ -640,8 +640,16 @@ footer{
 		flex-direction: column;
 	}
 	.skills-content{
-		margin-right: 0px;
+		width:280px;
+		padding:5px;
 		margin-bottom: 20px;
+	}
+	.skill-item{
+		padding:0px;
+	}
+	.skill-item img{
+		width: 50px;
+		height: 50px;
 	}
 	.project-content{
 		grid-template-columns: 1fr;
@@ -655,9 +663,18 @@ footer{
 		align-items: center;
 	}
 	.contact-me-content form{
-		width: 60%;
+		width: 80%;
 		margin:0px;
 		margin-bottom: 50px;
+	}
+	.contact-me-content form label{
+		font-size: large;
+	}
+	.contact-me-content form input, textarea{
+		font-size: medium;		
+	}
+	.contact-me-content form input[type="submit"] {
+		font-size: medium;
 	}
 	.contact-data{
 		align-items: center;
@@ -725,17 +742,27 @@ footer{
 	.intro h2, .intro span{
 		font-size: 25px;
 	}
+	.skills-section{
+		gap:30px;
+	}
+	.skills-content{
+		width:250px;
+	}
 	.skills-content h3{
 		font-size: 18px;
 	}
 	.skill-item p{
 		font-size:14px;
 	}
+	.contact-data{
+		width:85%;
+	}
 	.contact-me-content form {
 		width: 90%;
 	}
 
 	.contact-info, .contact-links {
+		width:100%;
 		font-size: 1rem;
 		padding: 10px;
 	}
@@ -751,7 +778,10 @@ footer{
 		justify-content: center;
 		align-items: center;
 	}
-	
+	.contact-links i{
+		font-size: 30px;
+		padding:10px;
+	}
 	.contents h5 {
 		font-size: 0.85rem;
 		margin-left: 10px;
