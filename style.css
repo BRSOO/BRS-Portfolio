@@ -841,16 +841,28 @@ footer p{
 	}
 }
 @media only screen and (max-height: 480px) and (orientation: landscape) {
-    #profile {
+    html{
+		overflow-x: hidden;
+	}
+	body{
+		overflow-x: hidden;
+		width:100%;
+		margin:0px;
+		padding:0px;
+	}
+	#profile {
         height: 200px;
         width: 200px;
         animation: none;
     }
 	.hero-section {
+		width:100%;
 		margin-top: 40px;
+		margin-left:0px;
 		padding-left:8%;
 	}
 	.intro{
+		width:100%;
 		padding-top:5%;
 		font-size: medium;
 		align-self:center;
@@ -882,6 +894,45 @@ footer p{
 	.skill-item p{
 		font-size:14px;
 	}
+	.skills-content:hover{
+		transform: none;
+		box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.3);
+	}
+	.skill-item{
+		padding:0px;
+	}
+	.skill-item img{
+		width: 50px;
+		height: 50px;
+	}
+	.skill-item:hover{
+		color:white;
+		transform: none;
+	}
+	.project-content{
+		margin-left:10px;
+		max-width: 1250px;
+		gap: 0px;
+	}
+	.project-item{
+		width:95%;
+		height:230px;
+		box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.3);
+	}
+	.project-item:hover{
+		transform: none;
+		box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);
+	}
+	.contact-me-content form:hover{
+		transform: none;
+		box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.3);
+	}
+	.contents h5 {
+	font-size: 50%;
+	margin-left: 15px;
+	margin-top: 35px;
+	}
+	
 }
 
 
