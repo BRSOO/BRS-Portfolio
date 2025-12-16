@@ -72,7 +72,7 @@ header{
 	margin-right: 30px;
 }
 
-.menu-icon div {
+.line1, .line2, .line3{
 	height: 4px;
 	background: #ffffff;
 	border-radius: 3px;
@@ -547,12 +547,6 @@ footer p{
 		height: 0px;
 		padding-left: 10px;
 	}
-	.nav-active{
-		animation:slidein 0.3s ease-in forwards;
-	}
-	.nav-deactive{
-		animation:slideout 0.3s ease-in forwards;
-	}
 	.navbar-pg{
 		flex-direction:column;
 		position: absolute;
@@ -577,20 +571,52 @@ footer p{
 		background:none;
 		border:none;
 	}
+	.nav-active{
+		animation:slidein 0.3s ease-in forwards;
+	}
+	.nav-deactive{
+		animation:slideout 0.3s ease-in forwards;
+	}
+	.line2-active{
+		animation: line-active 0.4s forwards;
+	}
+	.line2-deactive{
+		animation: line-deactive 0.4s forwards;
+	}
+	@keyframes line-active{
+		from{
+			width: 100%;
+		}
+		to{
+			width: 20px;
+		}
+	}
+	@keyframes line-deactive{
+		from{
+			width: 20px;
+		}
+		to{
+			width: 100%;
+		}
+	}
 	@keyframes slidein {
 		from {
 			transform: translateX(100%);
+			opacity: 0;
 		}
 		to {
 			transform: translateX(0%);
+			opacity:1;
 		}
 	}
 	@keyframes slideout {
 		from {
 			transform: translateX(0);
+			opacity:1;
 		}
 		to {			
 			transform: translateX(120%);
+			opacity: 0;
 		}
 	}
 	.hero-section{
