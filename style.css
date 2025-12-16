@@ -616,7 +616,7 @@ footer p{
 	
 	.intro-details {
 		width:100%;
-		text-align:justify;
+		text-align:left;
 	}
 	.intro-details > span{
 		width:90%;
@@ -626,7 +626,7 @@ footer p{
 		justify-content: center;
 	}
 	.intro-actions{
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 	.intro-actions button{
 		font-size:medium;
@@ -643,7 +643,7 @@ footer p{
 	}
 	.about-me p{
 		width: 90%;
-		text-align: justify;
+		text-align: center;
 		font-size: medium;
 	}
 	.skills-section{
