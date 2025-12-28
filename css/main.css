@@ -24,6 +24,7 @@ header{
 	padding-left: 15px;
 }
 .navbar{
+	color:black;
 	min-height:60px;
 	z-index: 10;
 	padding : 10px 10px;
@@ -34,7 +35,10 @@ header{
 	display:flex;
 	justify-content: space-between;
 	align-items:center;
-	padding-right:100px;
+	margin-right:100px;
+}
+.navbar-on{
+	background-color: #bdbdbb;
 }
 .navbar a{
 	text-decoration:none;

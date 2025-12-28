@@ -1,6 +1,9 @@
-.background{
+.background-on{
     background-color: white;
-
+}
+.background-off{
+    background-color: #3f3f3d;
+    color:black;
 }
 .toggle{
     display: flex;
@@ -10,6 +13,7 @@
     background-color: grey;
     border-radius: 100px;
     cursor: pointer;
+    margin-right: 20px;
 }
 .toggle-on{
     justify-content: flex-start;
@@ -24,7 +28,6 @@
     height:40px;
     background-color: white;
     border-radius: 100%;
-    
 }
 #sun{
     width:30px;
@@ -37,7 +40,7 @@
     
 }
 .toggle-ball-on{
-    background-color: grey;
+    background-color: rgb(167, 164, 164);
     animation:toggle-on 1s ease;
 }
 .toggle-ball-off{
