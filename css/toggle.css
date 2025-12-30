@@ -37,10 +37,9 @@
 #moon{
     width:20px;
     height:20px;
-    
 }
 .toggle-ball-on{
-    background-color: rgb(167, 164, 164);
+    background-color: rgb(215, 209, 209);
     animation:toggle-on 0.8s ease-in-out;
 }
 .toggle-ball-off{
@@ -48,11 +47,11 @@
 }
 @keyframes toggle-off{
     from{
-        transform: translateX(-30px);
+        transform: translateX(-40px) rotate(360deg);
     }
 }
 @keyframes toggle-on{
     from{
-        transform: translateX(30px);
+        transform: translateX(40px) rotate(360deg);
     }
 }
